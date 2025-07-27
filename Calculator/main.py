@@ -25,7 +25,7 @@ def clear_field():
 
 def remove_last():
     global calculation
-    calculation = calculation[:-1]  # string içinden son karakteri sil
+    calculation = calculation[:-1]  
     text_result.delete("1.0", tk.END)
     text_result.insert("1.0", calculation)
 
